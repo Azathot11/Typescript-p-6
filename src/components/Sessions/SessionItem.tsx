@@ -22,7 +22,7 @@ export default function SessionItem({
           <p>{summary}</p>
         </div>
         <p className="actions">
-          <Button to={id}>Learn More</Button>
+          <Button to={id} textOnly>Learn More</Button>
         </p>
       </div>
     </article>

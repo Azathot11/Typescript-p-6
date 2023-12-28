@@ -41,7 +41,7 @@ export default function BookSession({ session, onDone }: BookSessionProps) {
           <Button type="button" textOnly onClick={onDone}>
             Cancel
           </Button>
-          <Button>Book Session</Button>
+          <Button textOnly>Book Session</Button>
         </p>
       </form>
     </Modal>

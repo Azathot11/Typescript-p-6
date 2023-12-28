@@ -49,7 +49,7 @@ export default function SessionPage() {
               })}
             </time>
             <p>
-              <Button onClick={handleStartBooking}>Book Session</Button>
+              <Button onClick={handleStartBooking} textOnly>Book Session</Button>
             </p>
           </div>
         </header>

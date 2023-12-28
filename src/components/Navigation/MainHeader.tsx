@@ -31,7 +31,7 @@ export default function MainHeader() {
               <NavLink to="/sessions" className={({isActive}) => isActive ? 'active' : ''}>Browse Sessions</NavLink>
             </li>
             <li>
-              <Button onClick={showUpcomingSessions}>Upcoming Sessions</Button>
+              <Button onClick={showUpcomingSessions} textOnly>Upcoming Sessions</Button>
             </li>
           </ul>
         </nav>

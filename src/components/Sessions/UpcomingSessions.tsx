@@ -45,7 +45,7 @@ export default function UpcomingSessions({ onClose }: UpcomingSessionsProps) {
       )}
       {!hasSessions && <p>No upcoming sessions.</p>}
       <p className="actions">
-        <Button onClick={onClose}>Close</Button>
+        <Button onClick={onClose} textOnly>Close</Button>
       </p>
     </Modal>
   );
